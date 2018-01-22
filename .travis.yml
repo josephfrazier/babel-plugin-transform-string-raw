@@ -12,11 +12,6 @@ branches:
   except:
     - /^v[0-9]/
 
-env:
-  global:
-    # CODECLIMATE_REPO_TOKEN
-    - secure: tHacIRVXbnvx3IpRzPNwPVmEeNeIyHGpzUZRFTnLSCU3A/iowuQsGiB+2x8h5IHf0O4dWdpwC5p2YnTjI5LQ3fsYJI9A8xtBJvebVLRGcHO3M02roYsdkE+b+qOrMjfxaCVyr4Y+a1jT2v6nPA6pOKVf3KMGXlfT7AMXRFJyFQo9qUQ723OpRiWdAkI7njw4RZMtB6vlsmXF+VybOFN/eDMBNRIdNfA6adgPP7lBBvqTT61UcPt9iRahZlXdgyHHsTG8VomzvPW7sCaLW8hc6raCxLue75wBK3dwkVN0eeZNWbSZrcagPtHgD8KChSh201/WtBPkd5xhS+S0tjoj9jBibfvV3Uh1g+VZwRj/iRzzOtjrExK7Koxvqy49r68xQq2TxixomFgu3paXNgFKF39ivdXvY5nOBwMec7CE0v6LnqJO/1F6Fkmi1H7mxc2MDQS/QxhsOexaxU+6hVEJTm+UcDL02yX+Tkz7kvZdL3VKCHF988+KsSefeVwFtr4Zog/JvdlINHB1G0WZk+jmVnDHTPL5uk/jZXdhups/Y8RMPdhwPPqTNyamg1Lr/GCMUstxqiWp0Ekode1Mqv21aTvXJb/vYuD2acsVQ8c9x5whqg39slI45WgPuNL+5s7chPH4RjVUUjszbE8x+CUH8IgVH0VpJFnlbF+s4BGHj9I=
-
 # Language options
 language: node_js
 before_install:

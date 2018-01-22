@@ -8,12 +8,6 @@ babel-plugin-transform-string-raw
   <a href="https://travis-ci.org/josephfrazier/babel-plugin-transform-string-raw">
     <img src="http://img.shields.io/travis/josephfrazier/babel-plugin-transform-string-raw.svg?style=flat-square">
   </a>
-  <a href="https://codeclimate.com/github/josephfrazier/babel-plugin-transform-string-raw/coverage">
-    <img src="https://img.shields.io/codeclimate/github/josephfrazier/babel-plugin-transform-string-raw.svg?style=flat-square">
-  </a>
-  <a href="https://codeclimate.com/github/josephfrazier/babel-plugin-transform-string-raw">
-    <img src="https://img.shields.io/codeclimate/coverage/github/josephfrazier/babel-plugin-transform-string-raw.svg?style=flat-square">
-  </a>
   <a href="https://gemnasium.com/josephfrazier/babel-plugin-transform-string-raw">
     <img src="https://img.shields.io/gemnasium/josephfrazier/babel-plugin-transform-string-raw.svg?style=flat-square">
   </a>
