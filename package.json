@@ -15,7 +15,7 @@
     "watch:src": "babel src --out-dir lib --watch",
     "watch:test": "babel test --out-dir spec --watch",
     "compile": "babel -V && babel src --out-dir lib && babel test --out-dir spec",
-    "test": "abby compile, mocha",
+    "test": "abby lint, compile, cover",
     "mocha": "mocha 'spec/**/*.js'",
     "cover": "abby cover:* --parse serial",
     "cover:test": "nyc --reporter=lcov --reporter=text abby mocha",
