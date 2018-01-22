@@ -2,27 +2,27 @@ babel-plugin-transform-string-raw
 ---
 
 <p align="right">
-  <a href="https://npmjs.org/package/@59naga/babel-plugin-transform-string-raw">
-    <img src="https://img.shields.io/npm/v/@59naga/babel-plugin-transform-string-raw.svg?style=flat-square">
+  <a href="https://npmjs.org/package/babel-plugin-transform-string-raw">
+    <img src="https://img.shields.io/npm/v/babel-plugin-transform-string-raw.svg?style=flat-square">
   </a>
-  <a href="https://travis-ci.org/59naga/babel-plugin-transform-string-raw">
-    <img src="http://img.shields.io/travis/59naga/babel-plugin-transform-string-raw.svg?style=flat-square">
+  <a href="https://travis-ci.org/josephfrazier/babel-plugin-transform-string-raw">
+    <img src="http://img.shields.io/travis/josephfrazier/babel-plugin-transform-string-raw.svg?style=flat-square">
   </a>
-  <a href="https://codeclimate.com/github/59naga/babel-plugin-transform-string-raw/coverage">
-    <img src="https://img.shields.io/codeclimate/github/59naga/babel-plugin-transform-string-raw.svg?style=flat-square">
+  <a href="https://codeclimate.com/github/josephfrazier/babel-plugin-transform-string-raw/coverage">
+    <img src="https://img.shields.io/codeclimate/github/josephfrazier/babel-plugin-transform-string-raw.svg?style=flat-square">
   </a>
-  <a href="https://codeclimate.com/github/59naga/babel-plugin-transform-string-raw">
-    <img src="https://img.shields.io/codeclimate/coverage/github/59naga/babel-plugin-transform-string-raw.svg?style=flat-square">
+  <a href="https://codeclimate.com/github/josephfrazier/babel-plugin-transform-string-raw">
+    <img src="https://img.shields.io/codeclimate/coverage/github/josephfrazier/babel-plugin-transform-string-raw.svg?style=flat-square">
   </a>
-  <a href="https://gemnasium.com/59naga/babel-plugin-transform-string-raw">
-    <img src="https://img.shields.io/gemnasium/59naga/babel-plugin-transform-string-raw.svg?style=flat-square">
+  <a href="https://gemnasium.com/josephfrazier/babel-plugin-transform-string-raw">
+    <img src="https://img.shields.io/gemnasium/josephfrazier/babel-plugin-transform-string-raw.svg?style=flat-square">
   </a>
 </p>
 
 Installation
 ---
 ```bash
-npm install @59naga/babel-plugin-transform-string-raw --save
+npm install babel-plugin-transform-string-raw --save
 ```
 
 replace `String.raw` with an [ponyfill function](https://github.com/59naga/string-raw).
@@ -34,7 +34,7 @@ Requirement
 Installation
 ---
 ```bash
-npm install @59naga/babel-plugin-transform-string-raw --save
+npm install babel-plugin-transform-string-raw --save
 ```
 
 Example
@@ -61,21 +61,21 @@ _stringRaw`hoge${arg1}fuga${arg2}piyo`;
 
 ```json
 {
-  "plugins": ["@59naga/babel-plugin-transform-string-raw"]
+  "plugins": ["babel-plugin-transform-string-raw"]
 }
 ```
 
 ### Via CLI
 
 ```bash
-$ babel --plugins @59naga/babel-plugin-transform-string-raw script.js
+$ babel --plugins babel-plugin-transform-string-raw script.js
 ```
 
 ### Via Node API
 
 ```js
 require("babel-core").transform("code", {
-  plugins: ["@59naga/babel-plugin-transform-string-raw"]
+  plugins: ["babel-plugin-transform-string-raw"]
 });
 ```
 
@@ -86,7 +86,7 @@ Requirement global
 * Npm v3.7.1
 
 ```bash
-git clone https://github.com/59naga/babel-plugin-transform-string-raw
+git clone https://github.com/josephfrazier/babel-plugin-transform-string-raw
 cd babel-plugin-transform-string-raw
 npm install
 
@@ -95,4 +95,4 @@ npm test
 
 License
 ---
-[MIT](http://59naga.mit-license.org/)
+MIT
