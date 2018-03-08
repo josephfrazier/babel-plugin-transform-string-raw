@@ -21,6 +21,8 @@ const _stringRaw = `
 });
 `;
 
+const HAS_STRING_RAW = Symbol('has-string-raw');
+
 /**
 * @module babel-plugin-transform-string-raw
 * @returns {babelPlugin} unknown
@@ -29,11 +31,14 @@ export default () => ({
   visitor: {
     CallExpression(path) {
       if (path.get('callee').matchesPattern('String.raw')) {
+        this[HAS_STRING_RAW] = true;
         path.replaceWith(template(`${defineName}($0)`)(path.node.arguments));
       }
     },
     Program: {
       exit(path) {
+        if (!this[HAS_STRING_RAW]) return;
+
         for (const node of path.node.body) {
           const declaration = (node.declarations || [])[0] || {};
           const name = declaration.id && declaration.id.name;
