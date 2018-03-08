@@ -1,7 +1,7 @@
 {
   "name": "babel-plugin-transform-string-raw",
   "description": "replace `String.raw` with an ponyfill function",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "main": "lib",
   "files": [
     "lib"
