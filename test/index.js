@@ -45,4 +45,10 @@ describe('babel-plugin-transform-string-raw', () => {
       assert(returnValue === test.expected);
     });
   });
+
+  it('should not change the code if String.raw isnt used', () => {
+    const input = 'console.log("Hello, World!");';
+    const output = transform(input, { plugins: [plugin] }).code;
+    assert(input === output);
+  });
 });
